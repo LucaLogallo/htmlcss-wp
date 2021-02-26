@@ -1,0 +1,171 @@
+/* general */
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+body{
+  font-family: Montserrat;
+}
+/* header */
+header{
+  /* width: 80%; */
+  margin: 0 auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.logo{
+  height: 70px;
+  width: 100%;
+  background-image: url("../img/logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 4%;
+}
+
+nav{
+  /* height: 70px; */
+  width: 100%;
+  margin-bottom: 3%;
+}
+nav li{
+  display: inline;
+  list-style: none;
+  padding-right: 2%;
+}
+
+a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #aaaaaa;
+}
+
+.immagine{
+  height: 450px;
+  width: 100%;
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  border-radius: 10px;
+}
+
+.testo{
+  padding-top: 240px;
+  padding-left: 30px;
+  padding-right: 500px;
+  color: grey;
+}
+.testo > p{
+  font-size: 30px;
+}
+.testo > span{
+  font-size: 15px;
+}
+
+/* .overlay{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+} */
+
+/* main */
+main{
+  margin-bottom: 2%;
+}
+.maintitle{
+  width: 100%;
+  margin-bottom: 2%;
+  padding:5px;
+}
+
+.maintitle>h1{
+  font-size: 40px;
+}
+
+.maintitle>p{
+  color: grey;
+  margin-bottom: 5px;
+  font-size: 10px;
+}
+
+main .menu .col{
+  float:left;
+}
+
+.menu{
+  width: 100%;
+}
+
+.links{
+  width: 23%;
+  margin-bottom: 2%;
+}
+
+.immaginecol{
+  width: 100%;
+  height: 170px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.primaimmg{
+  background-image: url("../img/img-1.jpg");
+}
+
+.contenuto p{
+  margin-bottom: 10px;
+}
+.contenuto span{
+  color: grey;
+}
+
+
+.main-content{
+  width: 50%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+.secondaimmg{
+  background-image: url("../img/banner-2.jpg");
+}
+
+.widget{
+  width: 23%;
+  margin-bottom: 2%;
+}
+
+.terzaimmg{
+  background-image: url("../img/img-3.jpg");
+}
+/* footer */
+footer{
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+/* azioni */
+
+a:hover{
+  font-size: 20px;
+  font-weight: bold;
+}
+footer::after{
+  content: " \2665";
+  color: red;
+}
