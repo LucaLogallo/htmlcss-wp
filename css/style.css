@@ -164,8 +164,50 @@ footer{
 a:hover{
   font-size: 20px;
   font-weight: bold;
+  text-shadow: 0 0 5px #f0626e;
+  box-shadow: 0 0 5px #f0626e;
+  cursor: pointer;
+}
+.links:hover{
+  box-shadow: 0 0 5px #f0626e;
+  cursor: pointer;
+}
+.main-content:hover{
+  box-shadow: 0 0 5px #f0626e;
+  cursor: pointer;
+}
+.widget:hover{
+  box-shadow: 0 0 5px #f0626e;
+  cursor: pointer;
 }
 footer::after{
   content: " \2665";
   color: red;
 }
+footer::before{
+  content: " \2665";
+  color: red;
+}
+
+footer:hover::after{
+  font-size: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+footer:hover::before{
+  font-size: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+/* .overlay{
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 3s;
+  background-color:rgba(255, 255, 255, 0.5);
+  display: none;
+}
+.immagine:hover .overlay{
+  opacity: 1;
+  cursor: pointer;
+} */
