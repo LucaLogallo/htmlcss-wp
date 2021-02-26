@@ -33,6 +33,11 @@ header{
   background-repeat: no-repeat;
   background-size: contain;
   margin-bottom: 4%;
+  -webkit-transition: opacity 1s ease-in-out;
+       -moz-transition: opacity 1s ease-in-out;
+        -ms-transition: opacity 1s ease-in-out;
+         -o-transition: opacity 1s ease-in-out;
+            transition: opacity 1s ease-in-out;
 }
 
 nav{
@@ -59,6 +64,11 @@ a{
   background-size: cover;
   background-position: 50% 50%;
   border-radius: 10px;
+  -webkit-transition: opacity 1s ease-in-out;
+       -moz-transition: opacity 1s ease-in-out;
+        -ms-transition: opacity 1s ease-in-out;
+         -o-transition: opacity 1s ease-in-out;
+            transition: opacity 1s ease-in-out;
 }
 
 .testo{
@@ -124,6 +134,11 @@ main .menu .col{
 }
 .primaimmg{
   background-image: url("../img/img-1.jpg");
+  -webkit-transition: opacity 1s ease-in-out;
+       -moz-transition: opacity 1s ease-in-out;
+        -ms-transition: opacity 1s ease-in-out;
+         -o-transition: opacity 1s ease-in-out;
+            transition: opacity 1s ease-in-out;
 }
 
 .contenuto p{
@@ -143,6 +158,11 @@ main .menu .col{
 
 .secondaimmg{
   background-image: url("../img/banner-2.jpg");
+  -webkit-transition: opacity 1s ease-in-out;
+       -moz-transition: opacity 1s ease-in-out;
+        -ms-transition: opacity 1s ease-in-out;
+         -o-transition: opacity 1s ease-in-out;
+            transition: opacity 1s ease-in-out;
 }
 
 .widget{
@@ -152,6 +172,11 @@ main .menu .col{
 
 .terzaimmg{
   background-image: url("../img/img-3.jpg");
+  -webkit-transition: opacity 1s ease-in-out;
+       -moz-transition: opacity 1s ease-in-out;
+        -ms-transition: opacity 1s ease-in-out;
+         -o-transition: opacity 1s ease-in-out;
+            transition: opacity 1s ease-in-out;
 }
 /* footer */
 footer{
@@ -200,15 +225,31 @@ footer:hover::before{
   text-align: center;
   cursor: pointer;
 }
-/* .overlay{
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: 3s;
-  background-color:rgba(255, 255, 255, 0.5);
-  display: none;
-}
-.immagine:hover .overlay{
-  opacity: 1;
+
+.primaimmg:hover {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
   cursor: pointer;
-} */
+}
+
+.secondaimmg:hover {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.terzaimmg:hover {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.immagine:hover {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+  cursor: pointer;
+}
